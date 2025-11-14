@@ -1,0 +1,16 @@
+[gd_scene load_steps=3 format=3 uid="uid://dpl64piak3t58"]
+
+[ext_resource type="Texture2D" uid="uid://xtxk582tsqrr" path="res://art/Card Template.png" id="1_d81rb"]
+[ext_resource type="Script" uid="uid://b76lq8k14oa5t" path="res://scripts/card.gd" id="2_6u4wf"]
+
+[node name="Card" type="Button"]
+offset_right = 8.0
+offset_bottom = 8.0
+icon = ExtResource("1_d81rb")
+script = ExtResource("2_6u4wf")
+
+[node name="Label" type="Label" parent="."]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 23.0
+text = "Vine Lash"
